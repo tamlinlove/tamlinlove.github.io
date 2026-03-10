@@ -42,22 +42,21 @@ tags: home
         const yearSelect = document.getElementById('yearFilter');
         const venueSelect = document.getElementById('venueTagFilter');
 
-        // Helper to get unique sorted values from the JSON data
-        const getUnique = (key) => [...new Set(data.map(item => item[key]))].sort();
-
-        // 1. Populate Types
-        getUnique('type').forEach(type => {
-            if(type) typeSelect.innerHTML += `<option value="${type}">${type}</option>`;
+        // 1. Populate Types (Alphabetical)
+        const types = [...new Set(data.map(p => p.type))].sort();
+        types.forEach(t => {
+            if(t) typeSelect.innerHTML += `<option value="${t}">${t}</option>`;
         });
 
-        // 2. Populate Years (Sorted Descending for newest first)
-        const years = [...new Set(data.map(item => item.year))].sort((a, b) => b - a);
-        years.forEach(year => {
-            if(year) yearSelect.innerHTML += `<option value="${year}">${year}</option>`;
+        // 2. Populate Years (Descending: 2026, 2025...)
+        const years = [...new Set(data.map(p => p.year))].sort((a, b) => b - a);
+        years.forEach(y => {
+            if(y) yearSelect.innerHTML += `<option value="${y}">${y}</option>`;
         });
 
-        // 3. Populate Venue Tags
-        getUnique('venue_tag').forEach(tag => {
+        // 3. Populate Venue Tags (Alphabetical: AAAI, CVPR, ICRA...)
+        const venueTags = [...new Set(data.map(p => p.venue_tag))].sort();
+        venueTags.forEach(tag => {
             if(tag) venueSelect.innerHTML += `<option value="${tag}">${tag}</option>`;
         });
     }

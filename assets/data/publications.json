@@ -3,12 +3,13 @@
     "title": "Towards explainable proactive robot interactions for groups of people in unstructured environments",
     "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
     "year": 2024,
-    "type": "Late-Breaking Report",
+    "type": "Short Paper",
     "venue": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
     "venue_tag": "HRI",
     "paper":"assets/hri_lbr_24.pdf",
     "code":"https://github.com/tamlinlove/engage",
-    "video":"https://youtu.be/f9v1_iVIock"
+    "video":"https://youtu.be/f9v1_iVIock",
+    "note":"Late-breaking report"
   },
   {
     "title": "What would I do if…? Promoting understanding in HRI through real-time explanations in the wild",
@@ -75,7 +76,7 @@
     "title": "Should I trust you? Incorporating unreliable expert advice in human-agent interaction",
     "authors": "Tamlin Love, Ritesh Ajoodha, Benjamin Rosman",
     "year": 2021,
-    "type": "Workshop Paper",
+    "type": "Short Paper",
     "venue": "Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots @ ICDL 2021",
     "venue_tag": "ICDL",
     "paper":"assets/Should I Trust You.pdf",
@@ -85,7 +86,7 @@
     "title": "Causal Explanations for Robot Decisions and Beliefs",
     "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
     "year": 2026,
-    "type": "Workshop Paper",
+    "type": "Short Paper",
     "venue": "HRI Pioneers Workshop @ HRI 2026",
     "venue_tag": "HRI",
     "paper":"assets/pioneers_love.pdf",
@@ -95,17 +96,18 @@
     "title": "When to Explain: Field Study Insights on Robot Failure Explanations for Older Adults",
     "authors": "Tamlin Love, Víctor Bermejo, Alberto Olivares-Alarcos, Antonio Andriella, Núria Vallès-Peris, Cristian Barrué, Guillem Alenyà",
     "year": 2026,
-    "type": "Late-Breaking Report",
+    "type": "Short Paper",
     "venue": "Companion of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
     "venue_tag": "HRI",
     "paper":"assets/hri_lbr_26.pdf",
-    "code":"https://github.com/tamlinlove/domestic_stretch"
+    "code":"https://github.com/tamlinlove/domestic_stretch",
+    "note":"Late-breaking report"
   },
   {
     "title": "Strengthening Robotics and Automation in Africa: Highlights of ICRA@40-Africa",
     "authors": "Ndivhuwo Makondo, Paul Amayo, Jenalea Rajab, Lifhasi Ramulondi, Steven James, Alexandra Barry, Adam Mukuddem, Thabisa Maweni, Tamlin Love, Geraud Nangue Tasse, Zimkhitha Sijovu, Belinda Matebese, Benjamin Rosman",
     "year": 2025,
-    "type": "Journal",
+    "type": "Journal Paper",
     "venue": "IEEE Robotics & Automation Magazine",
     "venue_tag": "IEEE RAM",
     "paper":"https://ieeexplore.ieee.org/iel8/100/11037252/11037258.pdf"
@@ -123,7 +125,7 @@
     "title": "Personalising Explanations and Explaining Personalisation",
     "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
     "year": 2024,
-    "type": "Workshop Paper",
+    "type": "Short Paper",
     "venue": "Workshop on Weighing the benefits of Autonomous Robot persoNalisation (WARN) @ RO-MAN 2024",
     "venue_tag": "RO-MAN",
     "paper":"assets/WARN2024.pdf"
@@ -142,7 +144,7 @@
     "title": "Harnessing the wisdom of an unreliable crowd for autonomous decision making",
     "authors": "Tamlin Love, Ritesh Ajoodha, Benjamin Rosman",
     "year": 2021,
-    "type": "Extended Abstract",
+    "type": "Short Paper",
     "venue": "Multi-disciplinary Conference on Reinforcement Learning and Decision Making",
     "venue_tag": "RLDM",
     "paper":"assets/RLDM_Extended_Abstract.pdf"
@@ -151,7 +153,7 @@
     "title": "Facilitating Safe Sim-to-Real through Simulator Abstraction and Zero-shot Task Composition",
     "authors": "Tamlin Love, Devon Jarvis, Geraud Nangue Tasse, Branden Ingram, Steven James, Benjamin Rosman",
     "year": 2022,
-    "type": "Workshop Paper",
+    "type": "Short Paper",
     "venue": "Workshop on Lifelong Learning of High-level Cognitive and Reasoning Skills @ IROS 2022",
     "venue_tag": "IROS",
     "paper":"assets/Facilitating Safe Sim-to-Real through Simulator Abstraction.pdf",
