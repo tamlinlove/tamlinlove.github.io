@@ -26,7 +26,8 @@ tags: home
     async function init() {
         try {
             const response = await fetch('{{ "/assets/data/publications.json" | relative_url }}');
-            allPublications = await response.json();
+            const data = await response.json();
+            allPublications = data.sort((a, b) => b.year - a.year);
             
             populateFilters(allPublications); 
             
@@ -98,16 +99,32 @@ tags: home
 
     function renderList(data) {
         const container = document.getElementById('pubListContainer');
-        container.innerHTML = data.length ? data.map(p => `
-            <div class="pub-item" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">
-                <span class="pub-title" style="font-weight: bold; color: #0056b3;">${p.title}</span>
-                <div class="pub-authors" style="margin: 5px 0;">${p.authors}</div>
+        
+        if (!data.length) {
+            container.innerHTML = '<p>No matching publications found.</p>';
+            return;
+        }
+
+        container.innerHTML = data.map(p => `
+            <div class="pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+                <span class="pub-title" style="font-weight: bold; color: #0056b3; font-size: 1.1rem;">${p.title}</span>
+                <div class="pub-authors" style="margin: 5px 0; color: #444;">${p.authors}</div>
+                
                 <div class="pub-meta" style="font-size: 0.9em; color: #666;">
-                    <strong>${p.venue}</strong> (${p.year}) <br>
-                    <small style="background: #eee; padding: 2px 5px; border-radius: 3px;">${p.type}</small>
+                    <strong>${p.venue}</strong> (${p.year}) | 
+                    <span style="text-transform: uppercase; font-weight: 600;">${p.type}</span>
+                </div>
+
+                ${p.note ? `<span class="pub-note">${p.note}</span>` : ''}
+
+                <div class="pub-links">
+                    ${p.paper ? `<a href="${p.paper}" class="pub-link-btn" target="_blank">PDF</a>` : ''}
+                    ${p.code ? `<a href="${p.code}" class="pub-link-btn" target="_blank">Code</a>` : ''}
+                    ${p.video ? `<a href="${p.video}" class="pub-link-btn" target="_blank">Video</a>` : ''}
+                    ${p.supplementary ? `<a href="${p.supplementary}" class="pub-link-btn" target="_blank">Supp.</a>` : ''}
                 </div>
             </div>
-        `).join('') : '<p>No matching publications found.</p>';
+        `).join('');
     }
 
     // Event listeners for real-time filtering

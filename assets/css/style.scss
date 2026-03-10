@@ -50,3 +50,35 @@
 .pub-authors { color: #555; margin: 4px 0; }
 .pub-meta { font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
 .pub-tag { font-weight: bold; color: #333; }
+
+/* Link button styling */
+.pub-links {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.pub-link-btn {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border: 1px solid #0056b3;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #0056b3;
+    transition: all 0.2s;
+}
+
+.pub-link-btn:hover {
+    background: #0056b3;
+    color: white;
+}
+
+/* Note styling */
+.pub-note {
+    display: block;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #d9534f; /* A subtle red/warm color for emphasis */
+    margin-top: 5px;
+}

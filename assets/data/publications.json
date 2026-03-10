@@ -5,7 +5,10 @@
     "year": 2024,
     "type": "Late-Breaking Report",
     "venue": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
-    "venue_tag": "HRI"
+    "venue_tag": "HRI",
+    "paper":"assets/hri_lbr_24.pdf",
+    "code":"https://github.com/tamlinlove/engage",
+    "video":"https://youtu.be/f9v1_iVIock"
   },
   {
     "title": "What would I do if…? Promoting understanding in HRI through real-time explanations in the wild",
@@ -13,7 +16,9 @@
     "year": 2024,
     "type": "Conference Paper",
     "venue": "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
-    "venue_tag": "RO-MAN"
+    "venue_tag": "RO-MAN",
+    "paper":"assets/ROMAN24.pdf",
+    "code":"https://github.com/tamlinlove/engage"
   },
   {
     "title": "ROSARL: Reward-only safe reinforcement learning",
@@ -21,7 +26,9 @@
     "year": 2023,
     "type": "Preprint",
     "venue": "arXiv preprint arXiv:2306.00035",
-    "venue_tag": "arXiv"
+    "venue_tag": "arXiv",
+    "paper":"https://arxiv.org/pdf/2306.00035.pdf",
+    "code":"https://github.com/geraudnt/rosarl"
   },
   {
     "title": "Building undirected influence ontologies using pairwise similarity functions",
@@ -29,7 +36,8 @@
     "year": 2020,
     "type": "Conference Paper",
     "venue": "International SAUPEC/RobMech/PRASA Conference",
-    "venue_tag": "PRASA"
+    "venue_tag": "PRASA",
+    "paper":"assets/Building Undirected Influence Ontologies.pdf"
   },
   {
     "title": "Temporal Counterfactual Explanations of Behaviour Tree Decisions",
@@ -37,7 +45,9 @@
     "year": 2025,
     "type": "Preprint",
     "venue": "arXiv preprint arXiv:2509.07674",
-    "venue_tag": "arXiv"
+    "venue_tag": "arXiv",
+    "paper":"https://arxiv.org/pdf/2509.07674",
+    "code":"https://github.com/tamlinlove/btcm"
   },
   {
     "title": "Who should I trust? Cautiously learning with unreliable experts",
@@ -45,7 +55,10 @@
     "year": 2022,
     "type": "Journal Paper",
     "venue": "Neural Computing and Applications",
-    "venue_tag": "Neural Computing and Applications"
+    "venue_tag": "Neural Computing and Applications",
+    "paper":"assets/Who_Should_I_Trust.pdf",
+    "supplementary":"assets/Who_Should_I_Trust_supp.pdf",
+    "code":"https://github.com/tamlinlove/CLUE_SSDP"
   },
   {
     "title": "HEXAR: a Hierarchical Explainability Architecture for Robots",
@@ -53,7 +66,10 @@
     "year": 2026,
     "type": "Preprint",
     "venue": "arXiv preprint arXiv:2601.03070",
-    "venue_tag": "arXiv"
+    "venue_tag": "arXiv",
+    "paper":"https://arxiv.org/pdf/2601.03070",
+    "code":"https://github.com/fgebelli/HEXAR",
+    "note":"Accepted at ICRA 2026"
   },
   {
     "title": "Should I trust you? Incorporating unreliable expert advice in human-agent interaction",
@@ -61,7 +77,9 @@
     "year": 2021,
     "type": "Workshop Paper",
     "venue": "Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots @ ICDL 2021",
-    "venue_tag": "ICDL"
+    "venue_tag": "ICDL",
+    "paper":"assets/Should I Trust You.pdf",
+    "video":"https://www.youtube.com/watch?v=BybClvqoAwI"
   },
   {
     "title": "Causal Explanations for Robot Decisions and Beliefs",
@@ -69,7 +87,9 @@
     "year": 2026,
     "type": "Workshop Paper",
     "venue": "HRI Pioneers Workshop @ HRI 2026",
-    "venue_tag": "HRI"
+    "venue_tag": "HRI",
+    "paper":"assets/pioneers_love.pdf",
+    "video":"https://www.linkedin.com/feed/update/urn:li:activity:7435934515967156224/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADiPZfQBpEt7vNmtYiCZiptQZF3pocBzzh8"
   },
   {
     "title": "When to Explain: Field Study Insights on Robot Failure Explanations for Older Adults",
@@ -77,7 +97,9 @@
     "year": 2026,
     "type": "Late-Breaking Report",
     "venue": "Companion of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
-    "venue_tag": "HRI"
+    "venue_tag": "HRI",
+    "paper":"assets/hri_lbr_26.pdf",
+    "code":"https://github.com/tamlinlove/domestic_stretch"
   },
   {
     "title": "Strengthening Robotics and Automation in Africa: Highlights of ICRA@40-Africa",
@@ -85,7 +107,8 @@
     "year": 2025,
     "type": "Journal",
     "venue": "IEEE Robotics & Automation Magazine",
-    "venue_tag": "IEEE RAM"
+    "venue_tag": "IEEE RAM",
+    "paper":"https://ieeexplore.ieee.org/iel8/100/11037252/11037258.pdf"
   },
   {
     "title": "Measuring User Understanding in Explainable Human-Robot Interaction: A Systematic Review",
@@ -93,7 +116,8 @@
     "year": 2025,
     "type": "Preprint",
     "venue": "Zenodo",
-    "venue_tag": "Zenodo"
+    "venue_tag": "Zenodo",
+    "paper":"https://www.iris.unina.it/retrieve/c6658a31-e47f-4f9c-b1c7-f951013fc237/Measuring%20User%20Understanding%20in%20Explainable%20Human-Robot%20Interaction.pdf"
   },
   {
     "title": "Personalising Explanations and Explaining Personalisation",
@@ -101,7 +125,8 @@
     "year": 2024,
     "type": "Workshop Paper",
     "venue": "Workshop on Weighing the benefits of Autonomous Robot persoNalisation (WARN) @ RO-MAN 2024",
-    "venue_tag": "RO-MAN"
+    "venue_tag": "RO-MAN",
+    "paper":"assets/WARN2024.pdf"
   },
   {
     "title": "Learning Who to Trust: Policy Learning in Single-Stage Decision Problems with Unreliable Expert Advice",
@@ -109,15 +134,18 @@
     "year": 2022,
     "type": "Master's Thesis",
     "venue": "University of the Witwatersrand",
-    "venue_tag": "Master's Thesis"
+    "venue_tag": "Master's Thesis",
+    "paper":"assets/thesis.pdf",
+    "code":"https://github.com/tamlinlove/CLUE_SSDP"
   },
   {
     "title": "Harnessing the wisdom of an unreliable crowd for autonomous decision making",
     "authors": "Tamlin Love, Ritesh Ajoodha, Benjamin Rosman",
     "year": 2021,
-    "type": "Workshop Paper",
+    "type": "Extended Abstract",
     "venue": "Multi-disciplinary Conference on Reinforcement Learning and Decision Making",
-    "venue_tag": "RLDM"
+    "venue_tag": "RLDM",
+    "paper":"assets/RLDM_Extended_Abstract.pdf"
   },
   {
     "title": "Facilitating Safe Sim-to-Real through Simulator Abstraction and Zero-shot Task Composition",
@@ -125,6 +153,9 @@
     "year": 2022,
     "type": "Workshop Paper",
     "venue": "Workshop on Lifelong Learning of High-level Cognitive and Reasoning Skills @ IROS 2022",
-    "venue_tag": "IROS"
+    "venue_tag": "IROS",
+    "paper":"assets/Facilitating Safe Sim-to-Real through Simulator Abstraction.pdf",
+    "code":"https://github.com/tamlinlove/kuricomposition",
+    "video":"https://www.youtube.com/watch?v=Xyx4S--BUCI"
   }
 ]
