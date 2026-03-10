@@ -7,8 +7,6 @@ tags: home
     
     <select id="typeFilter">
         <option value="">All Types</option>
-        <option value="Conference Paper">Conference Paper</option>
-        <option value="Journal">Journal</option>
     </select>
 
     <select id="yearFilter">
@@ -27,15 +25,40 @@ tags: home
 
     async function init() {
         try {
-            // Adjust the path to your JSON file as needed
             const response = await fetch('{{ "/assets/data/publications.json" | relative_url }}');
             allPublications = await response.json();
             
-            setupFilters();
+            populateFilters(allPublications); 
+            
             renderList(allPublications);
         } catch (e) {
             document.getElementById('pubListContainer').innerHTML = "Error loading data.";
         }
+    }
+
+    function populateFilters(data) {
+        const typeSelect = document.getElementById('typeFilter');
+        const yearSelect = document.getElementById('yearFilter');
+        const venueSelect = document.getElementById('venueTagFilter');
+
+        // Helper to get unique sorted values from the JSON data
+        const getUnique = (key) => [...new Set(data.map(item => item[key]))].sort();
+
+        // 1. Populate Types
+        getUnique('type').forEach(type => {
+            if(type) typeSelect.innerHTML += `<option value="${type}">${type}</option>`;
+        });
+
+        // 2. Populate Years (Sorted Descending for newest first)
+        const years = [...new Set(data.map(item => item.year))].sort((a, b) => b - a);
+        years.forEach(year => {
+            if(year) yearSelect.innerHTML += `<option value="${year}">${year}</option>`;
+        });
+
+        // 3. Populate Venue Tags
+        getUnique('venue_tag').forEach(tag => {
+            if(tag) venueSelect.innerHTML += `<option value="${tag}">${tag}</option>`;
+        });
     }
 
     function setupFilters() {
