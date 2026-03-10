@@ -1,23 +1,130 @@
 [
   {
-    "title": "Scalable AI Systems in 2026",
-    "authors": "Jane Doe, John Smith",
-    "year": 2026,
-    "type": "Journal",
-    "venue": "Journal1"
+    "title": "Towards explainable proactive robot interactions for groups of people in unstructured environments",
+    "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
+    "year": 2024,
+    "type": "Late-Breaking Report",
+    "venue": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+    "venue_tag": "HRI"
   },
   {
-    "title": "Neural Architecture Search for Beginners",
-    "authors": "John Smith",
+    "title": "What would I do if…? Promoting understanding in HRI through real-time explanations in the wild",
+    "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
     "year": 2024,
     "type": "Conference Paper",
-    "venue": "Conf1"
+    "venue": "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "venue_tag": "RO-MAN"
   },
   {
-    "title": "LLM Efficiency Benchmarks",
-    "authors": "Jane Doe",
+    "title": "ROSARL: Reward-only safe reinforcement learning",
+    "authors": "Geraud Nangue Tasse, Tamlin Love, Mark Nemecek, Steven James, Benjamin Rosman",
     "year": 2023,
+    "type": "Preprint",
+    "venue": "arXiv preprint arXiv:2306.00035",
+    "venue_tag": "arXiv"
+  },
+  {
+    "title": "Building undirected influence ontologies using pairwise similarity functions",
+    "authors": "Tamlin Love, Ritesh Ajoodha",
+    "year": 2020,
     "type": "Conference Paper",
-    "venue": "Conf2"
+    "venue": "International SAUPEC/RobMech/PRASA Conference",
+    "venue_tag": "PRASA"
+  },
+  {
+    "title": "Temporal Counterfactual Explanations of Behaviour Tree Decisions",
+    "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
+    "year": 2025,
+    "type": "Preprint",
+    "venue": "arXiv preprint arXiv:2509.07674",
+    "venue_tag": "arXiv"
+  },
+  {
+    "title": "Who should I trust? Cautiously learning with unreliable experts",
+    "authors": "Tamlin Love, Ritesh Ajoodha, Benjamin Rosman",
+    "year": 2022,
+    "type": "Journal Paper",
+    "venue": "Neural Computing and Applications",
+    "venue_tag": "Neural Computing and Applications"
+  },
+  {
+    "title": "HEXAR: a Hierarchical Explainability Architecture for Robots",
+    "authors": "Tamlin Love, Ferran Gebellí, Pradip Pramanick, Antonio Andriella, Guillem Alenyà, Anais Garrell, Raquel Ros, Silvia Rossi",
+    "year": 2026,
+    "type": "Preprint",
+    "venue": "arXiv preprint arXiv:2601.03070",
+    "venue_tag": "arXiv"
+  },
+  {
+    "title": "Should I trust you? Incorporating unreliable expert advice in human-agent interaction",
+    "authors": "Tamlin Love, Ritesh Ajoodha, Benjamin Rosman",
+    "year": 2021,
+    "type": "Workshop Paper",
+    "venue": "Workshop on Human-aligned Reinforcement Learning for Autonomous Agents and Robots @ ICDL 2021",
+    "venue_tag": "ICDL"
+  },
+  {
+    "title": "Causal Explanations for Robot Decisions and Beliefs",
+    "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
+    "year": 2026,
+    "type": "Workshop Paper",
+    "venue": "HRI Pioneers Workshop @ HRI 2026",
+    "venue_tag": "HRI"
+  },
+  {
+    "title": "When to Explain: Field Study Insights on Robot Failure Explanations for Older Adults",
+    "authors": "Tamlin Love, Víctor Bermejo, Alberto Olivares-Alarcos, Antonio Andriella, Núria Vallès-Peris, Cristian Barrué, Guillem Alenyà",
+    "year": 2026,
+    "type": "Late-Breaking Report",
+    "venue": "Companion of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+    "venue_tag": "HRI"
+  },
+  {
+    "title": "Strengthening Robotics and Automation in Africa: Highlights of ICRA@40-Africa",
+    "authors": "Ndivhuwo Makondo, Paul Amayo, Jenalea Rajab, Lifhasi Ramulondi, Steven James, Alexandra Barry, Adam Mukuddem, Thabisa Maweni, Tamlin Love, Geraud Nangue Tasse, Zimkhitha Sijovu, Belinda Matebese, Benjamin Rosman",
+    "year": 2025,
+    "type": "Journal",
+    "venue": "IEEE Robotics & Automation Magazine",
+    "venue_tag": "IEEE RAM"
+  },
+  {
+    "title": "Measuring User Understanding in Explainable Human-Robot Interaction: A Systematic Review",
+    "authors": "Ferran Gebelli, Pradip Pramanick, Tamlin Love, Raquel Ros, Anais Garrell, Silvia Rossi, Antonio Andriella, Guillem Alenya",
+    "year": 2025,
+    "type": "Preprint",
+    "venue": "Zenodo",
+    "venue_tag": "Zenodo"
+  },
+  {
+    "title": "Personalising Explanations and Explaining Personalisation",
+    "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
+    "year": 2024,
+    "type": "Workshop Paper",
+    "venue": "Workshop on Weighing the benefits of Autonomous Robot persoNalisation (WARN) @ RO-MAN 2024",
+    "venue_tag": "RO-MAN"
+  },
+  {
+    "title": "Learning Who to Trust: Policy Learning in Single-Stage Decision Problems with Unreliable Expert Advice",
+    "authors": "Tamlin Love",
+    "year": 2022,
+    "type": "Master's Thesis",
+    "venue": "University of the Witwatersrand",
+    "venue_tag": "Master's Thesis"
+  },
+  {
+    "title": "Harnessing the wisdom of an unreliable crowd for autonomous decision making",
+    "authors": "Tamlin Love, Ritesh Ajoodha, Benjamin Rosman",
+    "year": 2021,
+    "type": "Workshop Paper",
+    "venue": "Multi-disciplinary Conference on Reinforcement Learning and Decision Making",
+    "venue_tag": "RLDM"
+  },
+  {
+    "title": "Facilitating Safe Sim-to-Real through Simulator Abstraction and Zero-shot Task Composition",
+    "authors": "Tamlin Love, Devon Jarvis, Geraud Nangue Tasse, Branden Ingram, Steven James, Benjamin Rosman",
+    "year": 2022,
+    "type": "Workshop Paper",
+    "venue": "Workshop on Lifelong Learning of High-level Cognitive and Reasoning Skills @ IROS 2022",
+    "venue_tag": "IROS"
   }
 ]
