@@ -11,3 +11,42 @@
 .worktable table, tr, td {
     border: none;
 }
+
+/* Container for the filter UI */
+.filter-bar {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.filter-bar input, .filter-bar select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 150px;
+}
+
+#searchInput { flex: 2; }
+
+/* Publication List Styling */
+.pub-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.pub-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: block;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.pub-authors { color: #555; margin: 4px 0; }
+.pub-meta { font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+.pub-tag { font-weight: bold; color: #333; }

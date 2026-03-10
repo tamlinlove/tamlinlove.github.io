@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Scalable AI Systems in 2026",
+    "authors": "Jane Doe, John Smith",
+    "year": 2026,
+    "type": "Journal",
+    "venue": "Journal1"
+  },
+  {
+    "title": "Neural Architecture Search for Beginners",
+    "authors": "John Smith",
+    "year": 2024,
+    "type": "Conference Paper",
+    "venue": "Conf1"
+  },
+  {
+    "title": "LLM Efficiency Benchmarks",
+    "authors": "Jane Doe",
+    "year": 2023,
+    "type": "Conference Paper",
+    "venue": "Conf2"
+  }
+]
