@@ -65,12 +65,13 @@
     "title": "HEXAR: a Hierarchical Explainability Architecture for Robots",
     "authors": "Tamlin Love, Ferran Gebellí, Pradip Pramanick, Antonio Andriella, Guillem Alenyà, Anais Garrell, Raquel Ros, Silvia Rossi",
     "year": 2026,
-    "type": "Preprint",
-    "venue": "arXiv preprint arXiv:2601.03070",
-    "venue_tag": "arXiv",
+    "type": "Conference Paper",
+    "venue": "IEEE International Conference on Robotics & Automation (ICRA)",
+    "venue_tag": "ICRA",
     "paper":"https://arxiv.org/pdf/2601.03070",
     "code":"https://github.com/fgebelli/HEXAR",
-    "note":"Accepted at ICRA 2026"
+    "website":"https://pradippramanick.github.io/hexar/",
+    "award":"Best HRI Paper"
   },
   {
     "title": "Should I trust you? Incorporating unreliable expert advice in human-agent interaction",

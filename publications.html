@@ -124,11 +124,14 @@ tags: home
 
                     ${p.note ? `<span class="pub-note" style="display: block; font-size: 0.85rem; font-style: italic; color: #d9534f; margin-top: 5px;">${p.note}</span>` : ''}
 
+                    ${p.award ? `<span class="pub-award">🏆 ${p.award}</span>` : ''}
+
                     <div class="pub-links" style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 8px;">
                         ${p.paper ? `<a href="${p.paper}" class="pub-link-btn" target="_blank">PDF</a>` : ''}
                         ${p.code ? `<a href="${p.code}" class="pub-link-btn" target="_blank">Code</a>` : ''}
                         ${p.video ? `<a href="${p.video}" class="pub-link-btn" target="_blank">Video</a>` : ''}
                         ${p.supplementary ? `<a href="${p.supplementary}" class="pub-link-btn" target="_blank">Supp.</a>` : ''}
+                        ${p.website ? `<a href="${p.website}" class="pub-link-btn" target="_blank">Website</a>` : ''}
                     </div>
                 </div>
             `;
