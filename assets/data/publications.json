@@ -1,6 +1,6 @@
 [
   {
-    "title": "Towards explainable proactive robot interactions for groups of people in unstructured environments",
+    "title": "Towards Explainable Proactive Robot Interactions for Groups of People in Unstructured Environments",
     "authors": "Tamlin Love, Antonio Andriella, Guillem Alenyà",
     "year": 2024,
     "type": "Short Paper",
@@ -22,14 +22,23 @@
     "code":"https://github.com/tamlinlove/engage"
   },
   {
-    "title": "ROSARL: Reward-only safe reinforcement learning",
-    "authors": "Geraud Nangue Tasse, Tamlin Love, Mark Nemecek, Steven James, Benjamin Rosman",
-    "year": 2023,
+    "title": "An Unreasonably Simple Approach to Safe RL",
+    "authors": "Geraud Nangue Tasse, Mark Nemecek, Tamlin Love, Steven James, Benjamin Rosman",
+    "year": 2026,
+    "type": "Conference Paper",
+    "venue": "2026 Reinforcement Learning Conference (RLC)",
+    "venue_tag": "RLC",
+    "paper":"https://rlj.cs.umass.edu/2026/papers/Paper96.pdf",
+    "code":"https://github.com/mark-nemecek/rosarl"
+  },
+  {
+    "title": "Responsible Personalisation: The Double-Edged Sword of Personalisation in Human-Robot Interaction",
+    "authors": "Antonio Andriella, Jauwairia Nasir, Andrea Rezzani, Alyssa Kubota, Dimitri Lacroix, Tamlin Love, Aniol Civit, Vicky Charisi, Elisabeth Andre, Wing-Yue Geoffrey Louie",
+    "year": 2026,
     "type": "Preprint",
-    "venue": "arXiv preprint arXiv:2306.00035",
+    "venue": "arXiv preprint arXiv:2607.06344",
     "venue_tag": "arXiv",
-    "paper":"https://arxiv.org/pdf/2306.00035.pdf",
-    "code":"https://github.com/geraudnt/rosarl"
+    "paper":"https://arxiv.org/pdf/2607.06344"
   },
   {
     "title": "Building undirected influence ontologies using pairwise similarity functions",
